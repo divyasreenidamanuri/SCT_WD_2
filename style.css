@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background: linear-gradient(
+135deg,
+#f5fff8,
+#7dd3a7,
+#0f766e,
+#022c22
+);
+
+    background-size:300% 300%;
+    animation:bg 10s infinite ease;
+}
+
+@keyframes bg{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+.container{
+
+    width:420px;
+
+    padding:40px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.25);
+
+    text-align:center;
+
+}
+
+h1{
+
+    color:black;
+
+    margin-bottom:30px;
+
+    font-size:38px;
+
+}
+
+.display{
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-bottom:30px;
+
+    border:1px solid rgba(255,255,255,.2);
+
+}
+
+#display{
+
+    color:black;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+}
+
+button{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:linear-gradient(
+    90deg,
+    #2563eb,
+    #7c3aed
+    );
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(59,130,246,.45);
+
+}
+
+.laps{
+
+    margin-top:35px;
+
+    text-align:left;
+
+}
+
+.laps h3{
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+#laps{
+
+    list-style:none;
+
+    max-height:180px;
+
+    overflow-y:auto;
+
+}
+
+#laps li{
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    border-radius:10px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+}
+
+#laps::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+#laps::-webkit-scrollbar-thumb{
+
+    background:#7c3aed;
+
+    border-radius:20px;
+
+}
+
+@media(max-width:500px){
+
+.container{
+
+    width:90%;
+
+    padding:25px;
+
+}
+
+#display{
+
+    font-size:32px;
+
+}
+
+.buttons{
+
+    grid-template-columns:1fr;
+
+}
+
+}
