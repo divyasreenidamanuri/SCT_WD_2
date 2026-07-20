@@ -6,13 +6,13 @@ A modern and fully responsive stopwatch web application developed as part of my 
 
 View the live project here:
 
-**Live Demo:** https://suhaas-2006.github.io/SCT_WD_2/
+**Live Demo:** https://divyasreenidamanuri.github.io/SCT_WD_2/
 
 ## 📂 Repository
 
 Explore the source code:
 
-**GitHub Repository:** https://github.com/Suhaas-2006/SCT_WD_2
+**GitHub Repository:** https://github.com/divyasreenidamanuri/SCT_WD_2
 
 ---
 
@@ -82,13 +82,6 @@ Supports:
 * Light Mode
 * Seamless Theme Switching
 
-### 📥 CSV Export
-
-Users can:
-
-* Export Recorded Lap Times
-* Save Results for Future Reference
-* Download Data in CSV Format
 
 ### 🔵 Circular Progress Indicator
 
@@ -139,13 +132,10 @@ Through this project, I gained hands-on experience in:
 
 ## 👨‍💻 Author
 
-**Sai Suhaas Nadakudity**
+**Nidamanuri Divya Sree**
 
 Web Development Intern
 
-**GitHub:** https://github.com/Suhaas-2006/SCT_WD_2
-
-**LinkedIn:** https://www.linkedin.com/in/sai-suhaas-nadakudity-a15992339/
 
 ---
 
